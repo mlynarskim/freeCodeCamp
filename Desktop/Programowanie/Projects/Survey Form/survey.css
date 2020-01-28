@@ -1,0 +1,88 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Patua One', cursive;
+    background: url(https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin: 0 auto;
+    background-color: rgba(77, 76, 76, 0.5);
+    border-radius: 2rem;
+    height: 100%;
+    width: 70%;
+}
+
+.title {
+    line-height: 0.2;
+    font-size: 3em;
+}
+
+.description {
+    font-size: 2rem;
+    padding: 1.1rem;
+    font-style: oblique;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(78, 78, 78, 0.4);
+}
+
+p {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: rgb(0, 27, 0);
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+select {
+    font-size: 1.4rem;
+    cursor: pointer;
+    width: 16rem;
+}
+
+.form-group input {
+    margin: 0 auto 2rem auto;
+    padding: 0.25rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 16rem;
+    height: 2.1rem;
+}
+
+.checkbox-input input {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.comments textarea {
+    min-height: 5.5rem;
+    width: 80%;
+    padding: 1rem;
+    resize: none;
+    margin: 1rem;
+}
+
+.button-submit button {
+    border-style: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.2rem;
+    width: 10rem;
+    height: 1.5rem;
+}
+
+button:hover {
+    background-color: rgba(31, 146, 46, 0.856);
+}
